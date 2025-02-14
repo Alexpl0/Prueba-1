@@ -67,18 +67,70 @@ qrcode.callback = (respuesta) => {
     activarSonido();
     //encenderCamara();    
     cerrarCamara();    
-    renderInventoryForm();
-
+    mostrarFormulario(respuesta);
   }
 };
+
+function mostrarFormulario(respuesta) {
+  const container = document.getElementById('form-container');
+  container.style.display = 'block';
+  renderInventoryForm(respuesta);
+
+  // Ocultar el elemento con id="qr"
+  const qrElement = document.getElementById('qr');
+  if (qrElement) {
+    qrElement.style.display = 'none';
+  }
+}
+
+
 //evento para mostrar la camara sin el boton 
 window.addEventListener('load', (e) => {
   encenderCamara();
 })
 
+document.addEventListener('DOMContentLoaded', function() {
+  // Simulación de obtener el texto de respuesta
+  const responseText = "Texto de respuesta del código QR";
+
+  // Almacenar el texto de respuesta en localStorage para que form.js pueda acceder a él
+  localStorage.setItem('responseText', responseText);
+});
 
 
 
+function mostrarQR() {
+  const qrElement = document.getElementById('qr');
+  qrElement.style.display = 'block';
 
+  const options = document.getElementById('options');
+  options.style.display = 'none';
 
+}
 
+function mostrarSalas() {
+  const qrElement = document.getElementById('salas');
+  qrElement.style.display = 'block';
+
+  const options = document.getElementById('options');
+  options.style.display = 'none';
+
+  renderConferenceRoom();
+
+}
+
+function newInventarioShow() {
+  const invent = document.getElementById('newInventarioS');
+  invent.style.display = 'block';
+  //Swal.fire('Nuevo Inventario');
+
+  //const options = document.getElementById('options');
+  //options.style.display = 'none';
+
+  renderNewInventario();
+  
+}
+
+function buttonHome() {
+  location.reload();  
+}
