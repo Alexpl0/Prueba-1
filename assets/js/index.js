@@ -66,15 +66,23 @@ qrcode.callback = (respuesta) => {
     Swal.fire(respuesta)
     activarSonido();
     //encenderCamara();    
-    cerrarCamara();    
+    cerrarCamara(); 
     mostrarFormulario(respuesta);
+
+    document.getElementById("unique-id").innerText = respuesta;
   }
 };
 
 function mostrarFormulario(respuesta) {
   const container = document.getElementById('form-container');
   container.style.display = 'block';
-  renderInventoryForm(respuesta);
+  //renderInventoryForm(respuesta);
+
+  document.getElementById("unique-id").innerText = 'respuesta';
+
+  const qrform = document.getElementById('formularioQR');
+  qrform.style.display = 'block';
+  
 
   // Ocultar el elemento con id="qr"
   const qrElement = document.getElementById('qr');
@@ -86,7 +94,7 @@ function mostrarFormulario(respuesta) {
 
 //evento para mostrar la camara sin el boton 
 window.addEventListener('load', (e) => {
-  encenderCamara();
+  //encenderCamara();
 })
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -132,5 +140,5 @@ function newInventarioShow() {
 }
 
 function buttonHome() {
-  location.reload();  
+  window.location.href = 'index.html';
 }
