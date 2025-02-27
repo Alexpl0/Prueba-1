@@ -1,0 +1,31 @@
+ID_dispositivo,Nombre,Tipo,Descripción,Estado,Fecha_adquisición
+1,Dispositivo 1,Tipo A,Descripción del dispositivo 1,Disponible,2015-12-29
+2,Dispositivo 2,Tipo A,Descripción del dispositivo 2,Disponible,2023-05-27
+3,Dispositivo 3,Tipo B,Descripción del dispositivo 3,En Mantenimiento,2017-04-19
+4,Dispositivo 4,Tipo A,Descripción del dispositivo 4,Disponible,2020-06-21
+5,Dispositivo 5,Tipo B,Descripción del dispositivo 5,En Mantenimiento,2022-04-11
+6,Dispositivo 6,Tipo B,Descripción del dispositivo 6,Disponible,2017-09-08
+7,Dispositivo 7,Tipo B,Descripción del dispositivo 7,En Mantenimiento,2024-11-23
+8,Dispositivo 8,Tipo A,Descripción del dispositivo 8,En Mantenimiento,2023-04-25
+9,Dispositivo 9,Tipo B,Descripción del dispositivo 9,En Mantenimiento,2017-09-25
+10,Dispositivo 10,Tipo A,Descripción del dispositivo 10,Disponible,2019-08-05
+11,Dispositivo 11,Tipo C,Descripción del dispositivo 11,Disponible,2018-05-12
+12,Dispositivo 12,Tipo A,Descripción del dispositivo 12,En Mantenimiento,2020-01-20
+13,Dispositivo 13,Tipo B,Descripción del dispositivo 13,En Mantenimiento,2020-01-07
+14,Dispositivo 14,Tipo B,Descripción del dispositivo 14,En Mantenimiento,2016-06-06
+15,Dispositivo 15,Tipo B,Descripción del dispositivo 15,Disponible,2020-03-26
+16,Dispositivo 16,Tipo B,Descripción del dispositivo 16,Disponible,2022-07-04
+17,Dispositivo 17,Tipo B,Descripción del dispositivo 17,En Mantenimiento,2019-08-25
+18,Dispositivo 18,Tipo C,Descripción del dispositivo 18,En Mantenimiento,2017-11-23
+19,Dispositivo 19,Tipo A,Descripción del dispositivo 19,En Mantenimiento,2016-01-26
+20,Dispositivo 20,Tipo C,Descripción del dispositivo 20,Disponible,2016-09-08
+21,Dispositivo 21,Tipo B,Descripción del dispositivo 21,En Mantenimiento,2018-06-26
+22,Dispositivo 22,Tipo C,Descripción del dispositivo 22,Disponible,2021-01-05
+23,Dispositivo 23,Tipo C,Descripción del dispositivo 23,Disponible,2019-07-31
+24,Dispositivo 24,Tipo B,Descripción del dispositivo 24,Disponible,2022-04-10
+25,Dispositivo 25,Tipo B,Descripción del dispositivo 25,En Mantenimiento,2017-04-11
+26,Dispositivo 26,Tipo B,Descripción del dispositivo 26,Disponible,2015-04-04
+27,Dispositivo 27,Tipo C,Descripción del dispositivo 27,Disponible,2018-03-26
+28,Dispositivo 28,Tipo C,Descripción del dispositivo 28,En Mantenimiento,2022-08-13
+29,Dispositivo 29,Tipo C,Descripción del dispositivo 29,En Mantenimiento,2019-03-13
+30,Dispositivo 30,Tipo C,Descripción del dispositivo 30,En Mantenimiento,2017-05-19
