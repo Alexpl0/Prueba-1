@@ -10,73 +10,34 @@
   <link rel="stylesheet" href="../assets/css/styles.css">
   <link rel="stylesheet" href="../assets/css/header.css">
 </head>
-
-<header class="header">
-    <a href="#" class="header__logo">Instituto Mexicano del Transporte</a>
-
-    <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
-
-    <nav class="nav" id="nav-menu">
-        <div class="nav__content bd-grid">
-
-            <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
-
-            <div class="nav__perfil">
-                <div class="nav__img">
-                    <img src="../media/IMT_logo.png" alt="">
-                </div>
-                
-                <div>
-                    <a href="#" class="nav__name">Instituto Mexicano del Transporte</a>
-                </div>
-            </div>
-
-            <div class="nav__menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
-                    <li class="nav__item"><a href="inventario.html" class="nav__link">Inventario</a></li>
-                    <li class="nav__item"><a href="salas.html" class="nav__link" >Salas</a></li>
-                    <li class="nav__item"><a href="newQR.html" class="nav__link">Generar QR</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Reportes</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-<header class="header">
-  <a href="#" class="header__logo">Instituto Mexicano del Transporte</a>
-
-  <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
-
-  <nav class="nav" id="nav-menu">
-      <div class="nav__content bd-grid">
-
-          <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
-
-          <div class="nav__perfil">
-              <div class="nav__img">
-                  <img src="../media/IMT_logo.png" alt="">
-              </div>
-              
-              <div>
-                  <a href="#" class="nav__name">Instituto Mexicano del Transporte</a>
-              </div>
-          </div>
-
-          <div class="nav__menu">
-              <ul class="nav__list">
-                  <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
-                  <li class="nav__item"><a href="scanQR.html" class="nav__link">Inventario</a></li>
-                  <li class="nav__item"><a href="salas.html" class="nav__link" >Salas</a></li>
-                  <li class="nav__item"><a href="newQR.html" class="nav__link">Generar QR</a></li>
-                  <li class="nav__item"><a href="#" class="nav__link">Reportes</a></li>
-              </ul>
-          </div>
-      </div>
-  </nav>
-</header>
-
 <body>
+  <header class="header">
+            <a href="#" class="header__logo">Instituto Mexicano del Transporte</a>
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+            <nav class="nav" id="nav-menu">
+                <div class="nav__content bd-grid">
+                    <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+                    <div class="nav__perfil">
+                        <div class="nav__img">
+                            <img src="..//media/IMT_logo.png" alt="LogoIMT">
+                        </div>
+                        <div>
+                            <a href="#" class="nav__name">Instituto Mexicano del Transporte</a>
+                        </div>
+                    </div> 
+                    <div class="nav__menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                            <li class="nav__item"><a href="scanQR.html" class="nav__link">Inventario</a></li>
+                            <li class="nav__item"><a href="salas.html" class="nav__link">Salas</a></li>
+                            <li class="nav__item"><a href="newQR.html" class="nav__link">Alta Producto</a></li>
+                            <li class="nav__item"><a href="ExcelToJson.html" class="nav__link">ExcelToJson</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+  </header>
+  
   <div id="home">
     <div class = "container">
       <div class = "row">
@@ -86,12 +47,11 @@
       </div>
       <div id="options">
         <div>
-          <div>
             <h5 class="text-center">Seleccionar Accion</h5>
             <div class="row text-center">
-              <button id="showQR" onclick="mostrarQR()">Nueva Entrada de Inventario</button>
-              <button id="showSalas" onclick="newSalas()">Reserva Salas</button>
-              <button id="buttonnewInventario" onclick="newQR()">Alta Producto Inventario</button>
+              <button href="scanQR.html">Nueva Entrada de Inventario</button>
+              <button href="salas.html">Reserva Salas</button>
+              <button href="newQR.html">Alta Producto Inventario</button>
             </div>
           </div>
         </div>

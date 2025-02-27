@@ -6,8 +6,8 @@
   --header-height: 3rem;
   
   /*===== Colores =====*/
-  --first-color: #3664F4;
-  --dark-color: #070D1F;
+  --first-color: #A57F2D;
+  --dark-color: #611332;
   --dark-color-alt: #282B3A;
   --white-color: #E6E7E9;
 
@@ -260,7 +260,7 @@ img {
     border-radius: .25rem;
   }
   .nav__link:hover {
-    background-color: var(--first-color);
+    color: var(--first-color);
   }
   .active {
     background-color: var(--first-color);
@@ -274,45 +274,3 @@ img {
     margin-right: auto;
   }
 }
-
-/*===== FORMULARIO =====*/
-.contenedor {
-    max-width: 90%;
-    width: 400px;
-    margin: 80px auto;
-}
-
-.formulario input[type='text'] {
-    padding: 20px;
-    border: none;
-    background: #fff;
-    width: 100%;
-    border-radius: 5px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.formulario .btn {
-    width: 100%;
-    border: none;
-    background: rgb(0, 0, 0);
-    color: #fff;
-    cursor: pointer;
-    padding: 20px;
-    font-size: 20px;
-    border-radius: 5px;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.formulario .btn:hover {
-    background: #3e14b2;
-}
-
-.contenedorQR {
-    display: flex;
-    justify-content: center;
-    padding: 40px 0;
-}
-

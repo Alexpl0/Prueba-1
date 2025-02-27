@@ -14,34 +14,33 @@
  
 </head>
 
-<header class="header">
-    <a href="#" class="header__logo">Instituto Mexicano del Transporte</a>
-    <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
-    <nav class="nav" id="nav-menu">
-        <div class="nav__content bd-grid">
-            <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
-            <div class="nav__perfil">
-                <div class="nav__img">
-                    <img src="../media/IMT_logo.png" alt="">
-                </div>
-                <div>
-                    <a href="#" class="nav__name">Instituto Mexicano del Transporte</a>
-                </div>
-            </div>
-            <div class="nav__menu">
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="scanQR.html" class="nav__link">Inventario</a></li>
-                    <li class="nav__item"><a href="salas.html" class="nav__link">Salas</a></li>
-                    <li class="nav__item"><a href="newQR.html" class="nav__link active" >Generar QR</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Reportes</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
-
 <body>
+    <header class="header">
+              <a href="#" class="header__logo">Instituto Mexicano del Transporte</a>
+              <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+              <nav class="nav" id="nav-menu">
+                  <div class="nav__content bd-grid">
+                      <ion-icon name="close-outline" class="nav__close" id="nav-close"></ion-icon>
+                      <div class="nav__perfil">
+                          <div class="nav__img">
+                              <img src="..//media/IMT_logo.png" alt="LogoIMT">
+                          </div>
+                          <div>
+                              <a href="#" class="nav__name">Instituto Mexicano del Transporte</a>
+                          </div>
+                      </div> 
+                      <div class="nav__menu">
+                          <ul class="nav__list">
+                              <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                              <li class="nav__item"><a href="scanQR.html" class="nav__link">Inventario</a></li>
+                              <li class="nav__item"><a href="salas.html" class="nav__link active">Salas</a></li>
+                              <li class="nav__item"><a href="newQR.html" class="nav__link">Alta Producto</a></li>
+                              <li class="nav__item"><a href="ExcelToJson.html" class="nav__link">ExcelToJson</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </nav>
+    </header>
     <h1>Registro de Nuevo Producto</h1>
     <div class="contenedor">
         <form action="" id="formulario" class="formulario">
@@ -87,7 +86,17 @@
     </div>
 
     <button id="buttonHome" onclick="buttonHome()">Regresar</button>
+    
+    <!-- ===== JS ===== -->
     <script defer src="../assets/js/newQR.js"></script>
+    <script src="../assets/js/index.js"></script>
+    <script src="../assets/js/form.js"></script>
+    <script src="../assets/js/header.js"></script>
+
+    
+  <!-- ===== IONICONS ===== -->
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+
+
 </body>
 </html>
-
