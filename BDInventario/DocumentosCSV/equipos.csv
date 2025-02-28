@@ -1,0 +1,31 @@
+ID_equipo,Nombre,Marca,Modelo,Descripción,Estado,Fecha_adquisición,ID_sala
+1,Equipo 1,Marca 4,Modelo 3,Descripción del equipo 1,Disponible,2020-03-23,24
+2,Equipo 2,Marca 5,Modelo 1,Descripción del equipo 2,Disponible,2021-07-03,15
+3,Equipo 3,Marca 3,Modelo 3,Descripción del equipo 3,Disponible,2017-03-31,16
+4,Equipo 4,Marca 1,Modelo 2,Descripción del equipo 4,En Mantenimiento,2024-08-11,25
+5,Equipo 5,Marca 1,Modelo 1,Descripción del equipo 5,En Mantenimiento,2024-01-13,4
+6,Equipo 6,Marca 5,Modelo 4,Descripción del equipo 6,En Mantenimiento,2023-05-29,24
+7,Equipo 7,Marca 2,Modelo 2,Descripción del equipo 7,Disponible,2024-04-30,1
+8,Equipo 8,Marca 3,Modelo 5,Descripción del equipo 8,Disponible,2019-03-12,17
+9,Equipo 9,Marca 4,Modelo 2,Descripción del equipo 9,Disponible,2016-04-03,1
+10,Equipo 10,Marca 1,Modelo 2,Descripción del equipo 10,En Mantenimiento,2022-08-01,3
+11,Equipo 11,Marca 3,Modelo 1,Descripción del equipo 11,Disponible,2016-09-14,21
+12,Equipo 12,Marca 4,Modelo 4,Descripción del equipo 12,Disponible,2021-12-25,12
+13,Equipo 13,Marca 2,Modelo 4,Descripción del equipo 13,Disponible,2018-05-06,27
+14,Equipo 14,Marca 2,Modelo 3,Descripción del equipo 14,Disponible,2015-10-14,17
+15,Equipo 15,Marca 5,Modelo 4,Descripción del equipo 15,En Mantenimiento,2021-02-20,14
+16,Equipo 16,Marca 5,Modelo 4,Descripción del equipo 16,En Mantenimiento,2020-08-08,25
+17,Equipo 17,Marca 3,Modelo 3,Descripción del equipo 17,En Mantenimiento,2021-12-09,12
+18,Equipo 18,Marca 4,Modelo 3,Descripción del equipo 18,Disponible,2018-04-25,23
+19,Equipo 19,Marca 4,Modelo 1,Descripción del equipo 19,En Mantenimiento,2019-11-05,20
+20,Equipo 20,Marca 5,Modelo 1,Descripción del equipo 20,En Mantenimiento,2020-10-15,26
+21,Equipo 21,Marca 5,Modelo 1,Descripción del equipo 21,Disponible,2016-05-30,10
+22,Equipo 22,Marca 2,Modelo 3,Descripción del equipo 22,Disponible,2022-01-30,8
+23,Equipo 23,Marca 5,Modelo 5,Descripción del equipo 23,Disponible,2021-01-25,28
+24,Equipo 24,Marca 1,Modelo 4,Descripción del equipo 24,En Mantenimiento,2018-09-01,7
+25,Equipo 25,Marca 5,Modelo 2,Descripción del equipo 25,Disponible,2016-06-18,30
+26,Equipo 26,Marca 4,Modelo 4,Descripción del equipo 26,En Mantenimiento,2023-09-25,13
+27,Equipo 27,Marca 4,Modelo 1,Descripción del equipo 27,En Mantenimiento,2020-02-06,1
+28,Equipo 28,Marca 5,Modelo 5,Descripción del equipo 28,Disponible,2020-08-05,20
+29,Equipo 29,Marca 2,Modelo 4,Descripción del equipo 29,Disponible,2022-11-23,24
+30,Equipo 30,Marca 4,Modelo 5,Descripción del equipo 30,Disponible,2015-08-11,7
