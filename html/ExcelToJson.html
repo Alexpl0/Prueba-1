@@ -34,17 +34,18 @@
                   </div>
               </nav>
     </header>
-    <div id="container">
-        <h1>Convertidor de Excel a JSON</h1>
+    
+    <div id="containerExcel">
+        <h1>Convertir de Excel a JSON</h1>
         <p>Selecciona un archivo Excel (.xlsx, .xls) para convertirlo a formato JSON:</p>
         
         <p>Ejemplo de Tabla Valida</p>
         <div>
-            <img src="C:\Users\jalej\OneDrive\Documentos\PracticaWeb\DesarrolloWebAvanzado\Pruebas\simple-web-page\EjemploTabla.png" alt="Ejemplo de Tabla" />
+            <img src="..//media/EjemploTabla.png" class="responsive-image" id="TablaEjemplo" />
         </div>
         
         <!-- Enlace de descarga del archivo Excel -->
-        <p id="downloadExcel"><a href="../media/Prueba Inventario.xlsx" download>Descargar archivo de ejemplo</a></p>
+        <p id="downloadExcel"><a id="textExcel" href="../media/Prueba Inventario.xlsx" download>Descargar archivo de ejemplo</a></p>
         
         <input type="file" id="excelFile" accept=".xlsx, .xls" />
         <p id="fileInfo"></p>
