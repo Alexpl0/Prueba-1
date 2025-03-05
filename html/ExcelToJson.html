@@ -29,6 +29,7 @@
                               <li class="nav__item"><a href="salas.html" class="nav__link">Salas</a></li>
                               <li class="nav__item"><a href="newQR.html" class="nav__link">Alta Producto</a></li>
                               <li class="nav__item"><a href="ExcelToJson.html" class="nav__link active">ExcelToJson</a></li>
+                              <li class="nav__item"><a href="DataTables.html" class="nav__link">Reportes</a></li>
                           </ul>
                       </div>
                   </div>
@@ -41,19 +42,20 @@
         
         <p>Ejemplo de Tabla Valida</p>
         <div>
-            <img src="..//media/EjemploTabla.png" class="responsive-image" id="TablaEjemplo" />
+            <img src="..//media/EjemploTabla.png" class="responsive-image" id="TablaEjemplo" alt="Ejemplo de Tabla" />
         </div>
         
         <!-- Enlace de descarga del archivo Excel -->
         <p id="downloadExcel"><a id="textExcel" href="../media/Prueba Inventario.xlsx" download>Descargar archivo de ejemplo</a></p>
         
-        <input type="file" id="excelFile" accept=".xlsx, .xls" />
+        <label for="excelFile">Selecciona un archivo Excel:</label>
+        <input type="file" id="excelFile" accept=".xlsx, .xls" title="Selecciona un archivo Excel" />
         <p id="fileInfo"></p>
         <button id="convertBtn">Convertir a JSON</button>
         
         <div>
             <h3>Resultado JSON:</h3>
-            <textarea id="jsonOutput" readonly></textarea>
+            <textarea id="jsonOutput" readonly title="Resultado JSON" placeholder="El resultado JSON aparecerá aquí"></textarea>
         </div>
         
         <button id="downloadBtn" disabled>Descargar JSON</button>

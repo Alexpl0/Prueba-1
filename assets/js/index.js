@@ -89,6 +89,13 @@ function mostrarFormulario(respuesta) {
   if (qrElement) {
     qrElement.style.display = 'none';
   }
+
+  Swal.fire({
+    title: '¡Código QR leído!',
+    text: 'El código QR ha sido leído con éxito.',
+    icon: 'success',
+    confirmButtonText: '¡Entendido!'
+  })
 }
 
 

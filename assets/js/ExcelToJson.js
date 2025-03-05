@@ -66,6 +66,12 @@ document.addEventListener('DOMContentLoaded', function() {
         };
         
         reader.readAsArrayBuffer(file);
+        Swal.fire({
+            title: '¡Archivo convertido!',
+            text: 'El archivo Excel ha sido convertido a JSON con éxito.',
+            icon: 'success',
+            confirmButtonText: '¡Entendido!'
+        });
     });
     
     // Evento para el botón de descarga

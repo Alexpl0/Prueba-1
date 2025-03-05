@@ -48,29 +48,25 @@ function renderInventoryForm(respuesta) {
                 <option value="software">Software</option>
             </select><br><br>
 
-            <label for="description">Descripción detallada:</label>
-            <textarea id="description" name="description" required></textarea><br><br>
-
             <label for="brand">Marca:</label>
             <input type="text" id="brand" name="brand" required><br><br>
 
             <label for="model">Modelo:</label>
             <input type="text" id="model" name="model" required><br><br>
 
-            <label for="quantity">Cantidad:</label>
-            <input type="number" id="quantity" name="quantity" required><br><br>
-
-            <label for="unit">Unidad de medida:</label>
-            <input type="text" id="unit" name="unit" required><br><br>
-
-            <label for="location">Ubicación:</label>
-            <input type="text" id="location" name="location" required><br><br>
-
-            <label for="supplier">Proveedor:</label>
-            <input type="text" id="supplier" name="supplier" required><br><br>
-
             <label for="status">Estado:</label>
             <input type="text" id="status" name="status" required><br><br>
+
+
+            <label for="description">Descripción detallada:</label>
+            <textarea id="description" name="description" required></textarea><br><br>
+
+            <label for="precio">Precio:</label>
+            <input type="text" id="precio" name="precio" required><br><br>
+
+           
+            <label for="location">Ubicación:</label>
+            <input type="text" id="location" name="location" required><br><br>
 
             <button type="submit">Enviar</button>
 

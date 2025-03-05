@@ -185,3 +185,8 @@ button:hover {
     display: none;
     margin: 20px auto;
 }
+
+.centered {
+    text-align: center !important;
+    vertical-align: middle !important;
+}

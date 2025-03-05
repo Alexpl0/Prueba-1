@@ -52,7 +52,7 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .bd-grid {
@@ -142,7 +142,7 @@ img {
   margin-bottom: .8rem;
   width: 56px;
   height: 56px;
-  background-color: var(--first-color);
+  background-color: white;
   border-radius: 50%;
   overflow: hidden;
 }
